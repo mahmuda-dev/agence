@@ -1,0 +1,503 @@
+/* Common Part CSS Start */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+    display: inline-block;
+}
+ul, ol{
+    list-style: none;
+}
+h1, h2, h3, h4, h5, h6, p{
+    line-height: 0.8;
+}
+.bg-cover{
+    background-position: center !important;
+    background-size: cover !important;
+    background-repeat: no-repeat !important;
+}
+.common-title h3{
+    font-family: 'Inter', sans-serif;
+    font-size: 45px;
+    line-height: 55px;
+    color: #151515;
+    font-weight: 700;
+}
+.common-title p{
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    line-height: 26px;
+    color: #737373;
+    font-weight: 400;
+    margin-top: 20px;
+}
+/* Common Part CSS End */
+/* NavBar Part CSS Start */
+.navbar{
+    position: absolute;
+    width: 100%;
+    z-index: 999;
+}
+.navbar-expand-lg .navbar-nav .nav-link {
+    padding-left: 30px;
+    padding-right: 30px;
+    font-family: 'Inter', sans-serif;
+    font-size: 18px;
+    line-height: 26px;
+    color: #ffffff;
+    font-weight: 400;
+    transition: all linear 0.4s;
+}
+.navbar-expand-lg .navbar-nav .nav-link:hover{
+    color: #4756DF;
+    font-weight: 700;
+}
+.navbar-expand-lg .navbar-nav .nav-item:first-child a{
+    padding-left: 0;
+}
+.navbar-expand-lg .navbar-nav .nav-item:last-child a{
+    padding-right: 0;
+}
+.nav-btn button{
+    padding: 15px 42px;
+    background: #6A4DF4;
+    border-radius: 10px;
+    border: none;
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+    line-height: 26px;
+    color: #ffffff;
+    font-weight: 600;
+    margin-top: 50px;
+}
+.navbar-expand-lg .navbar-nav{
+    margin-top: 65px !important;
+}
+.navbar-expand-lg .navbar-brand{
+    margin-top: 57px;
+}
+/* NavBar Part CSS End */
+/* Slider Part CSS Start */
+#slider-part .slide-text h1{
+    font-family: 'Inter', sans-serif;
+    font-size: 75px;
+    line-height: 90px;
+    color: #ffffff;
+    font-weight: 700;
+}
+#slider-part .slide-text h5{
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    line-height: 26px;
+    color: #ffffff;
+    font-weight: 400;
+    width: 621px;
+}
+.slide-1{
+    padding: 315px 0 176px;
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../images/02-Agenc-Hero-Slide-01.jpg);
+}
+.slide-2{
+    padding: 315px 0 176px;
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../images/02-Agenc-Hero-Slide-02.jpg);
+}
+.slide-3{
+    padding: 315px 0 176px;
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../images/02-Agenc-Hero-Slide-03.jpg);
+}
+.slide-4{
+    padding: 315px 0 176px;
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../images/02-Agenc-Hero-Slide-04.jpg);
+}
+.slider-wrapper ul{
+    position: absolute;
+    left: 49%;
+    bottom: 30px;
+    transform: translateX(-50%);
+    display: flex;
+}
+.slider-wrapper ul li{
+    margin: 0 2px;
+}
+.slider-wrapper ul li button{
+    font-size: 0;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    transition: all linear 0.4s;
+    background: #4756DF;
+    border: 4px solid #4756DF;
+}
+.slider-wrapper ul li button:hover{
+    border: 4px solid #ffffff;
+}
+.slider-wrapper ul .slick-active button{
+    border: 4px solid #ffffff;
+}
+/* Slider Part CSS End */
+/* Counter Part CSS Start */
+#counter-part{
+    padding: 170px 140px 150px;
+}
+.counter-bg{
+    background: #E0FFF9;
+    border-radius: 20px;
+}
+.counter-title{
+    padding: 85px 0px 85px 50px;
+}
+.counter-data{
+    padding-top: 70px;
+}
+.counter-title h4{
+    font-family: 'Inter', sans-serif;
+    font-size: 25px;
+    line-height: 30px;
+    color: #6A4DF4;
+    font-weight: 500;
+}
+.counter-title h3{
+    font-family: 'Inter', sans-serif;
+    font-size: 35px;
+    line-height: 42px;
+    color: #151515;
+    font-weight: 600;
+    margin-top: 15px;
+}
+.counter-data h3{
+    font-family: 'Inter', sans-serif;
+    font-size: 50px;
+    line-height: 60.51px;
+    color: #151515;
+    font-weight: 700;
+}
+.counter-data h5{
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+    line-height: 24px;
+    color: #737373;
+    font-weight: 500;
+    margin-top: 20px;
+}
+/* Counter Part CSS End */
+/* Services Part CSS Start */
+#services{
+    padding-bottom: 70px;
+}
+.services-item{
+    padding: 80px 50px 50px 50px;
+    transition: all linear 0.4s;
+}
+.services-item:hover{
+    border-radius: 20px;
+    box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.2);
+}
+.services-item img{
+    margin-bottom: 40px;
+}
+.services-item h3{
+    font-family: 'Inter', sans-serif;
+    font-size: 25px;
+    line-height: 30px;
+    color: #151515;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+.services-item p{
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    line-height: 26px;
+    color: #737373;
+    font-weight: 400;
+}
+/* Services Part CSS End */
+/* Work Part CSS Start */
+#our-work{
+    padding: 150px 140px;
+    background: #f3f3f3;
+}
+.work-item{
+    background: #ffffff;
+    border-radius: 20px;
+    padding-bottom: 30px;
+    margin-top: 24px;
+    transition: all linear 0.4s;
+}
+.work-item img{
+    border-radius: 20px;
+}
+.work-item h5{
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+    line-height: 24px;
+    color: #151515;
+    font-weight: 700;
+    margin-bottom: 10px;
+    margin-top: 32px;
+}
+.work-item p{
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    line-height: 26px;
+    color: #737373;
+    font-weight: 400;
+    margin-left: 42px;
+    margin-right: 42px;
+}
+.work-item:hover{
+    margin-top: 10px;
+}
+/* Work Part CSS End */
+/* Choose Part CSS Start */
+#choose-part{
+    padding-top: 150px;
+    padding-bottom: 50px;
+}
+.choose-part-title h3{
+    width: 518px;
+}
+.choose-part-title p{
+    margin-bottom: 137px;
+}
+.choose-content h3{
+    font-family: 'Inter', sans-serif;
+    font-size: 25px;
+    line-height: 30px;
+    color: #151515;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+.choose-content p{
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    line-height: 26px;
+    color: #737373;
+    font-weight: 400;
+}
+.choose-content-inner-top{
+    margin-bottom: 70px;
+}
+.choose-content-inner-top img{
+    margin-bottom: 20px;
+}
+
+.choose-content-inner-bottom img{
+    margin-bottom: 20px;
+}
+.choose-content p{
+    width: 344px;
+}
+/* Choose Part CSS End */
+/* Review Part CSS Start */
+#client-review{
+    padding-top: 50px;
+    padding-bottom: 227px;
+}
+#client-review .common-title p{
+    margin-bottom: 130px;
+}
+.client-review-pad{
+    padding: 12px;
+}
+.client-review-item-main-area{
+    padding: 54px 58px;
+    border-radius: 30px;
+}
+.client-review-item:hover .client-review-item-main-area{
+    background: #F4EFEF;
+}
+.client-review-item .quote-left{
+    color: rgba(105, 77, 244, 0.1);
+    font-size: 64px;
+    margin-bottom: 10px;
+}
+.client-review-item p{
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    line-height: 26px;
+    color: #7B7B7B;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+.review-content-star i{
+    font-size: 24px;
+    color: #F9BD2C;
+    margin-bottom: 30px;
+}
+.review-content-client {
+    display: flex;
+    justify-content: start;
+    align-items: flex-start;
+}
+.review-content-client-detail{
+    margin-left: 20px;
+}
+.review-content-client-detail h3{
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+    color: #232323;
+    font-weight: 600;
+}
+.review-content-client-detail p{
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    line-height: 20px;
+    color: #7B7B7B;
+    font-weight: 400;
+}
+.client-review-slider{
+    position: relative;
+}
+.review-button-right{
+    position: absolute;
+    top: 50%;
+    right: -30px;
+    width: 40px !important;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #4756DF;
+    color: #ffffff;
+    text-align: center;
+    line-height: 40px;
+    transform: translateY(-50%);
+}
+.review-button-left{
+    position: absolute;
+    top: 50%;
+    left: -30px;
+    width: 40px !important;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #4756DF;
+    color: #ffffff;
+    text-align: center;
+    line-height: 40px;
+    transform: translateY(-50%);
+}
+/* Review Part CSS End */
+/* Form Part CSS Start */
+#get-form{
+    padding: 150px 0;
+    background-color: #F3F3F3;
+}
+#get-form .get-form-title-left h3{
+    font-family: 'Inter', sans-serif;
+    font-size: 45px;
+    line-height: 55px;
+    color: #151515;
+    font-weight: 700;
+    width: 470px;
+    margin-bottom: 20px;
+}
+#get-form .get-form-title-left p{
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    line-height: 26px;
+    color: #7b7b7b;
+    font-weight: 400;
+    width: 514px;
+}
+#get-form .contact-form{
+    background-color: #ffffff;
+    padding: 61px 43px;
+    border-radius: 20px;
+}
+.form-title h3{
+    font-family: 'Inter', sans-serif;
+    font-size: 30px;
+    line-height: 36px;
+    color: #151515;
+    font-weight: 700;
+    margin-bottom: 30px;
+    text-align: center;
+}
+.user-detail .input-box{
+    margin-bottom: 20px;
+}
+.user-detail .input-box .details{
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    line-height: 26px;
+    color: #151515;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+.user-detail .input-box input{
+    width: 100%;
+    height: 64px;
+    border: 1px solid #e8e8e8;
+    border-radius: 10px;
+    padding: 19px 23px;
+}
+.user-detail .button .form-button{
+    width: 100%;
+    height: 64px;
+    padding-top: 19px;
+    padding-bottom: 19px;
+    background-color: #6A4DF4;
+    text-align: center;
+    border: none;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+.user-detail .button .form-button-text{
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+    line-height: 26px;
+    color: #ffffff;
+    font-weight: 600;
+}
+/* Form Part CSS End */
+/* Footer Part CSS Start */
+.footer-top{
+    padding-top: 150px;
+    padding-bottom: 50px;
+}
+.footer-top h3{
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+    line-height: 25px;
+    color: #151515;
+    font-weight: 600;
+    margin-bottom: 40px;
+}
+.footer-top ul{
+    padding-left: 0 !important;
+}
+.footer-top ul li{
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    line-height: 40px;
+    color: #7b7b7b;
+    font-weight: 400;
+}
+.footer-top .footer-contact p{
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    line-height: 40px;
+    color: #7b7b7b;
+    font-weight: 400;
+    margin-bottom: 0 !important;
+}
+.footer-top .footer-logo-area img{
+    margin-bottom: 30px;
+}
+.footer-top .footer-logo-area p{
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    line-height: 26px;
+    color: #7b7b7b;
+    font-weight: 400;
+    width: 356px;
+}
+.footer-bottom{
+    border-top: 1px solid #e8e8e8;
+}
+.footer-bottom p{
+    color: #D0D0D0;
+    margin: 33px 0;
+}
+/* Footer Part CSS End */
